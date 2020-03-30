@@ -17,6 +17,6 @@ class Transfer
   
   def execute_transaction
     if valid?
-      @sender.
+      @sender.balance 
   end 
 end
